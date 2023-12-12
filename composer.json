@@ -1,0 +1,33 @@
+{
+    "name": "em_survey/mysurvey2",
+    "type": "library",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Surveybuilders\\Survey\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Naiyar",
+            "email": "naiyar@enterpisemonkey.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/iworld99/survey-builder"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Surveybuilders\\Survey\\SurveybuilderServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+   "require": {        
+    }
+}
